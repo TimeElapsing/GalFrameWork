@@ -205,6 +205,12 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.yuki.yukiframework": {
+      "version": "file:E:/Unity/Unity插件/YukiFrameWork-YooassetsForYuKI/YukiFrameWork",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
       "depth": 0,
