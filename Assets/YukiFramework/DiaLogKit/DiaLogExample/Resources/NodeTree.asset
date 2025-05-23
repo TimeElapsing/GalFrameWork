@@ -1,0 +1,475 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8879913804548679675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03deab5c6591dbe4fa5ae31bd7cedfee, type: 3}
+  m_Name: RootDialogue
+  m_EditorClassIdentifier: 
+  id: 2e7e81ec02a2fb14ea9baf27d3fac229
+  <nodeId>k__BackingField: 1007
+  optionItems: []
+  randomItems: []
+  randomIdItems: 
+  optionIdItems: 
+  linkIds: 
+  child: {fileID: 7269039119517245183}
+  childNodeId: 1004
+  dialogueContext: "\u4F60\u597D\u6211\u662F\u5B99\u65AF"
+  icon: {fileID: 21300000, guid: 1d1a4d6241f264c4a9df0b7a1c810e49, type: 3}
+  dialogueTitle: "\u5B99\u65AF"
+  position:
+    x: -709
+    y: -158
+--- !u!114 &-8815744967086259242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fdab94c26f6bb44b9ff3059b3f1ea32, type: 3}
+  m_Name: NormalDialogue
+  m_EditorClassIdentifier: 
+  id: eb1888e49f6f19148800bbb72a1ed634
+  <nodeId>k__BackingField: 1001
+  optionItems: []
+  randomItems: []
+  randomIdItems: 
+  optionIdItems: 
+  linkIds: 
+  child: {fileID: 0}
+  childNodeId: 0
+  dialogueContext: "\u884C\u5427\u90A3\u6211\u81EA\u5DF1\u60F3\u529E\u6CD5"
+  icon: {fileID: 21300000, guid: 1d1a4d6241f264c4a9df0b7a1c810e49, type: 3}
+  dialogueTitle: "\u5B99\u65AF"
+  position:
+    x: 626
+    y: 243
+--- !u!114 &-8350360396323702697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fdab94c26f6bb44b9ff3059b3f1ea32, type: 3}
+  m_Name: NormalDialogue
+  m_EditorClassIdentifier: 
+  id: 27934167343ef9a4cbb24fb40ba52d65
+  <nodeId>k__BackingField: 1011
+  optionItems: []
+  randomItems: []
+  randomIdItems: 
+  optionIdItems: 
+  linkIds: 
+  child: {fileID: 0}
+  childNodeId: 0
+  dialogueContext: 
+  icon: {fileID: 0}
+  dialogueTitle: 
+  position:
+    x: 772
+    y: 640
+--- !u!114 &-7570688813782514405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fdab94c26f6bb44b9ff3059b3f1ea32, type: 3}
+  m_Name: NormalDialogue
+  m_EditorClassIdentifier: 
+  id: 960fa4e8e50db3c4d9d6e9d375bf189e
+  <nodeId>k__BackingField: 1016
+  optionItems: []
+  randomItems: []
+  randomIdItems: 
+  optionIdItems: 
+  linkIds: 
+  child: {fileID: 0}
+  childNodeId: 0
+  dialogueContext: 
+  icon: {fileID: 0}
+  dialogueTitle: 
+  position:
+    x: -6.5
+    y: 204.5
+--- !u!114 &-1287571576854155573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daf9d9ec1060d04e9e0b2f431dbef08, type: 3}
+  m_Name: BranchDialogue
+  m_EditorClassIdentifier: 
+  id: 9493837c21ef37e4abfcecf62bcbc3fa
+  <nodeId>k__BackingField: 1010
+  optionItems: []
+  randomItems: []
+  randomIdItems: 
+  optionIdItems: 
+  linkIds: 
+  child: {fileID: 0}
+  childNodeId: 0
+  dialogueContext: 
+  icon: {fileID: 0}
+  dialogueTitle: 
+  position:
+    x: 731
+    y: 661
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152a1c7cbb6065445a93b0f1fa22949e, type: 3}
+  m_Name: NodeTree
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: -8879913804548679675}
+  nodes:
+  - {fileID: 9202231264491583671}
+  - {fileID: -8815744967086259242}
+  - {fileID: 450640751343897464}
+  - {fileID: 6080812062154682062}
+  - {fileID: 7269039119517245183}
+  - {fileID: 8569766610377616231}
+  - {fileID: 8725136802727617154}
+  - {fileID: -8879913804548679675}
+  - {fileID: 2401994875219892066}
+  - {fileID: -1287571576854155573}
+  - {fileID: -8350360396323702697}
+  - {fileID: 1027740570637250010}
+  - {fileID: 7834099548012837026}
+  - {fileID: 1087294627359182456}
+  excelPath: Assets/Test.xlsx
+--- !u!114 &450640751343897464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fdab94c26f6bb44b9ff3059b3f1ea32, type: 3}
+  m_Name: NormalDialogue
+  m_EditorClassIdentifier: 
+  id: c9434e5b1cba31940a876a4ae9b01a1f
+  <nodeId>k__BackingField: 1002
+  optionItems: []
+  randomItems: []
+  randomIdItems: 
+  optionIdItems: 
+  linkIds: 
+  child: {fileID: 0}
+  childNodeId: 0
+  dialogueContext: "\u4F60\u771F\u7684\u6709\u70B9\u6076\u5FC3\u4E86"
+  icon: {fileID: 21300000, guid: 1d1a4d6241f264c4a9df0b7a1c810e49, type: 3}
+  dialogueTitle: "\u5B99\u65AF"
+  position:
+    x: 626
+    y: 46
+--- !u!114 &1027740570637250010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fdab94c26f6bb44b9ff3059b3f1ea32, type: 3}
+  m_Name: NormalDialogue
+  m_EditorClassIdentifier: 
+  id: c8674df1bd5b62a47856640f9352b6d0
+  <nodeId>k__BackingField: 1012
+  optionItems: []
+  randomItems: []
+  randomIdItems: 
+  optionIdItems: 
+  linkIds: 
+  child: {fileID: 0}
+  childNodeId: 0
+  dialogueContext: 
+  icon: {fileID: 0}
+  dialogueTitle: 
+  position:
+    x: 777
+    y: 669
+--- !u!114 &1087294627359182456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fdab94c26f6bb44b9ff3059b3f1ea32, type: 3}
+  m_Name: NormalDialogue
+  m_EditorClassIdentifier: 
+  id: 2a4d1e1c86460cb498573801f57f977f
+  <nodeId>k__BackingField: 1014
+  optionItems: []
+  randomItems: []
+  randomIdItems: 
+  optionIdItems: 
+  linkIds: 
+  child: {fileID: 0}
+  childNodeId: 0
+  dialogueContext: 
+  icon: {fileID: 0}
+  dialogueTitle: 
+  position:
+    x: 811
+    y: 652
+--- !u!114 &2401994875219892066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daf9d9ec1060d04e9e0b2f431dbef08, type: 3}
+  m_Name: BranchDialogue
+  m_EditorClassIdentifier: 
+  id: f517b392bf91edf429d7f4c254eb3b34
+  <nodeId>k__BackingField: 1009
+  optionItems: []
+  randomItems: []
+  randomIdItems: 
+  optionIdItems: 
+  linkIds: 
+  child: {fileID: 0}
+  childNodeId: 0
+  dialogueContext: 
+  icon: {fileID: 0}
+  dialogueTitle: 
+  position:
+    x: 793
+    y: 577
+--- !u!114 &2936845217516793101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55229890ec7bfb448b487f848f9a0ea, type: 3}
+  m_Name: RandomDiaLogue
+  m_EditorClassIdentifier: 
+  id: 60cc02e5ffacda6429cb741edae11788
+  <nodeId>k__BackingField: 1015
+  optionItems: []
+  randomItems: []
+  randomIdItems: 
+  optionIdItems: 
+  linkIds: 
+  child: {fileID: 0}
+  childNodeId: 0
+  dialogueContext: 
+  icon: {fileID: 0}
+  dialogueTitle: 
+  position:
+    x: -84
+    y: 332
+--- !u!114 &6080812062154682062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fdab94c26f6bb44b9ff3059b3f1ea32, type: 3}
+  m_Name: NormalDialogue
+  m_EditorClassIdentifier: 
+  id: 8cf78e6667ff62846bbee626586ad3c5
+  <nodeId>k__BackingField: 1003
+  optionItems: []
+  randomItems: []
+  randomIdItems: 
+  optionIdItems: 
+  linkIds: 
+  child: {fileID: 0}
+  childNodeId: 0
+  dialogueContext: "\u6211\u771F\u7684\u5BF9\u4F60\u5F88\u5931\u671B"
+  icon: {fileID: 21300000, guid: 1d1a4d6241f264c4a9df0b7a1c810e49, type: 3}
+  dialogueTitle: "\u5B99\u65AF"
+  position:
+    x: 632
+    y: 380
+--- !u!114 &7269039119517245183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fdab94c26f6bb44b9ff3059b3f1ea32, type: 3}
+  m_Name: NormalDialogue
+  m_EditorClassIdentifier: 
+  id: e7e79c54df993c844a0416904332b755
+  <nodeId>k__BackingField: 1004
+  optionItems: []
+  randomItems: []
+  randomIdItems: 
+  optionIdItems: 
+  linkIds: 
+  child: {fileID: 8569766610377616231}
+  childNodeId: 1005
+  dialogueContext: "\u4F60\u597D\u4F60\u597D\uFF0C\u6211\u662F\u8FDC\u65B9\u7684\u9A91\u58EB\u8725\u8734"
+  icon: {fileID: 21300000, guid: beb7743cd4c368f48a173d46629ecadb, type: 3}
+  dialogueTitle: "\u795E\u79D8\u4EBA"
+  position:
+    x: -454
+    y: -158
+--- !u!114 &7834099548012837026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daf9d9ec1060d04e9e0b2f431dbef08, type: 3}
+  m_Name: BranchDialogue
+  m_EditorClassIdentifier: 
+  id: fee5dcb6a1c3fb84e972f25f418afeec
+  <nodeId>k__BackingField: 1013
+  optionItems: []
+  randomItems: []
+  randomIdItems: 
+  optionIdItems: 
+  linkIds: 
+  child: {fileID: 0}
+  childNodeId: 0
+  dialogueContext: 
+  icon: {fileID: 0}
+  dialogueTitle: 
+  position:
+    x: 789
+    y: 692
+--- !u!114 &8569766610377616231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fdab94c26f6bb44b9ff3059b3f1ea32, type: 3}
+  m_Name: NormalDialogue
+  m_EditorClassIdentifier: 
+  id: 218111e419eb0714f9a4bd06d859933f
+  <nodeId>k__BackingField: 1005
+  optionItems: []
+  randomItems: []
+  randomIdItems: 
+  optionIdItems: 
+  linkIds: 
+  child: {fileID: 9202231264491583671}
+  childNodeId: 1000
+  dialogueContext: "\u4F60\u597D\u8725\u8734\uFF0C\u6211\u60F3\u95EE\u95EE\u8DEF\u600E\u4E48\u8D70"
+  icon: {fileID: 21300000, guid: 1d1a4d6241f264c4a9df0b7a1c810e49, type: 3}
+  dialogueTitle: "\u5B99\u65AF"
+  position:
+    x: -301
+    y: 100
+--- !u!114 &8725136802727617154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55229890ec7bfb448b487f848f9a0ea, type: 3}
+  m_Name: RandomDiaLogue
+  m_EditorClassIdentifier: 
+  id: e9721646905d02747b1416a8208ae9ec
+  <nodeId>k__BackingField: 1006
+  optionItems: []
+  randomItems:
+  - {fileID: 6080812062154682062}
+  - {fileID: -8815744967086259242}
+  randomIdItems: eb030000e9030000
+  optionIdItems: 
+  linkIds: 
+  child: {fileID: 0}
+  childNodeId: 0
+  dialogueContext: "\u8FD9\u6837\u8BF4\u7684\u8BDD\u6211\u4E5F\u4E0D\u77E5\u9053\u4E86"
+  icon: {fileID: 21300000, guid: c98031543dbc5804c9bd5712a1ced62d, type: 3}
+  dialogueTitle: "\u96C5\u5178\u5A1C"
+  position:
+    x: 333
+    y: 255
+--- !u!114 &9202231264491583671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daf9d9ec1060d04e9e0b2f431dbef08, type: 3}
+  m_Name: BranchDialogue
+  m_EditorClassIdentifier: 
+  id: 09289a60cecbc9f4bacc2f695d325f9c
+  <nodeId>k__BackingField: 1000
+  optionItems:
+  - optionTexts: "\u95EE\u5B99\u65AF"
+    nextNode: {fileID: 450640751343897464}
+    nextNodeId: 1002
+    iconGUID: e66ed5a3433af45459e80ac89eb8e8d4
+    icon: {fileID: 0}
+  - optionTexts: "\u95EE\u96C5\u5178\u5A1C"
+    nextNode: {fileID: 8725136802727617154}
+    nextNodeId: 1006
+    iconGUID: 
+    icon: {fileID: 0}
+  randomItems: []
+  randomIdItems: 
+  optionIdItems: ea030000ee030000
+  linkIds: 
+  child: {fileID: 0}
+  childNodeId: 0
+  dialogueContext: "\u544A\u8BC9\u5B99\u65AF\u600E\u4E48\u9009\u62E9\u628A"
+  icon: {fileID: 0}
+  dialogueTitle: 
+  position:
+    x: 129
+    y: 46

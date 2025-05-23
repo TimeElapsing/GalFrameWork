@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: ExpertCodeConfig
   m_EditorClassIdentifier: 
   NameSpace: YukiFrameWork.Example
-  FoldPath: Assets/Scripts
-  Name: 
-  ParentType: 0
+  FoldPath: Assets/_My/Scripts/Main
+  Name: Main
+  ParentType: 6
   levelInterface: 0
   customInterface: 0
   IsScruct: 0
-  architecture: 
+  architecture: None
   FoldExport: 0
   IsReturnValueCommand: 0
   ReturnValue: 
