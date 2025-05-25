@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.26f1
+CRC: 3565614590
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8452bba51902bc00466b1816ec5cf73d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9edaed2ea90bd9404acab7e08ac14315
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8aa045db248b5c7cd88a5b8ed3b7060d
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: d22aa4b760cf7414bb2626fb352c2bc2, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: StateMachine
+  ClassName: YukiFrameWork.Machine.StateConditionData
+- AssemblyName: StateMachine
+  ClassName: YukiFrameWork.Machine.StateDependStateBehaviourScriptInfo
+- AssemblyName: StateMachine
+  ClassName: YukiFrameWork.Machine.StateNodeData
+- AssemblyName: StateMachine
+  ClassName: YukiFrameWork.Machine.StateParameterData
+- AssemblyName: StateMachine
+  ClassName: YukiFrameWork.Machine.StateTransitionData
+- AssemblyName: YukiFrameWork
+  ClassName: YukiFrameWork.BindablePropertyStruct`1
+- AssemblyName: YukiFrameWork
+  ClassName: YukiFrameWork.YDictionary`2
+- AssemblyName: YukiFrameWork
+  ClassName: YukiFrameWork.YDictionary`2/Y_KeyValuePair
+Assets:
+- Assets/_My/Configs/StateMachines/Game.asset
+Dependencies: []

@@ -10,7 +10,7 @@ using YukiFrameWork.UI;
 using UnityEngine;
 using YukiFrameWork;
 using UnityEngine.UI;
-namespace GalGame.UI
+namespace Nickings.UI
 {
 	public partial class LoadingPanel : BasePanel
 	{

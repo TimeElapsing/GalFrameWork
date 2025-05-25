@@ -10,7 +10,7 @@ using YukiFrameWork;
 using UnityEngine;
 using System;
 using YukiFrameWork.Audio;
-namespace GalGame.Loader
+namespace Nickings.Loader
 {
 	public partial class MyAudioLoader : IAudioLoader
 	{

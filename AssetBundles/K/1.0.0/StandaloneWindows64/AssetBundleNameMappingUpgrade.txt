@@ -1,0 +1,11 @@
+{
+  "Game": {
+    "YukiFrameWork.Machine.RuntimeStateMachineCore": "configs"
+  },
+  "Init": {
+    "XFABManager.SceneObject": "scenes"
+  },
+  "Main Menu": {
+    "XFABManager.SceneObject": "scenes"
+  }
+}

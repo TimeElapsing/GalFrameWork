@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.26f1
+CRC: 90198596
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1e794a169f4ec9390f63f816a0a3f58b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5527383dc91eba37123fc67ad6efaa19
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c7ef553cec53c76c36e979c823d46e6d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Packages/com.unity.ugui/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
+Dependencies: []

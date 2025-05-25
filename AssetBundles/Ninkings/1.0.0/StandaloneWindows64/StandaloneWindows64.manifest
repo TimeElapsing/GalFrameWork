@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.26f1
+CRC: 3662809937
+HashAppended: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: ninkings_configs.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: ninkings_scenes.unity3d
+      Dependencies:
+        Dependency_0: ninkings_9dd0db27ad8a67a45b2af9ec30d7b806_separately(auto).unity3d
+        Dependency_1: ninkings_8f586378b4e144a9851e7b34d9b748ee_separately(auto).unity3d
+    Info_2:
+      Name: ninkings_9dd0db27ad8a67a45b2af9ec30d7b806_separately(auto).unity3d
+      Dependencies: {}
+    Info_3:
+      Name: ninkings_2e498d1c8094910479dc3e1b768306a4_separately(auto).unity3d
+      Dependencies:
+        Dependency_0: ninkings_e3265ab4bf004d28a9537516768c1c75_separately(auto).unity3d
+    Info_4:
+      Name: ninkings_2e498d1c8094910479dc3e1b768306a4_separately_depend_res(auto).unity3d
+      Dependencies: {}
+    Info_5:
+      Name: ninkings_8f586378b4e144a9851e7b34d9b748ee_separately(auto).unity3d
+      Dependencies:
+        Dependency_0: ninkings_2e498d1c8094910479dc3e1b768306a4_separately(auto).unity3d
+        Dependency_1: ninkings_e3265ab4bf004d28a9537516768c1c75_separately(auto).unity3d
+    Info_6:
+      Name: ninkings_e3265ab4bf004d28a9537516768c1c75_separately(auto).unity3d
+      Dependencies: {}
+    Info_7:
+      Name: ninkings_scenes_depend_on_res(auto).unity3d
+      Dependencies: {}

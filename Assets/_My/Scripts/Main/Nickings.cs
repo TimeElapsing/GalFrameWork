@@ -12,15 +12,15 @@ using System;
 using YukiFrameWork.UI;
 using YukiFrameWork.Missions;
 using YukiFrameWork.Audio;
-using GalGame.Loader;
-namespace GalGame
+using Nickings.Loader;
+namespace Nickings
 {
-    public class GalGame : Architecture<GalGame>
+    public class Nickings : Architecture<Nickings>
     {
 
         //可以填写默认进入的场景名称，在架构准备完成后，自动进入
         public override (string, SceneLoadType) DefaultSceneName => default;
-        public override string OnProjectName => base.OnProjectName;
+        public override string OnProjectName => "Nickings";
 
         public override void OnInit()
         {
@@ -37,6 +37,7 @@ namespace GalGame
             MissionKit.Init(new MyMissionLoader());
             UIKit.Init(new MyUIConfigLoader());
             AudioKit.Init(new MyAduioLoaderPools());
+            SceneTool.XFABManager.Init(ProjectName);
 
         }
 

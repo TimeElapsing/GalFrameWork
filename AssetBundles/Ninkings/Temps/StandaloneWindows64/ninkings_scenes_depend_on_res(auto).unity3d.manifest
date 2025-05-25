@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.26f1
+CRC: 2713171492
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 44c0543c844e53d9a139554f05b3df0f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5527383dc91eba37123fc67ad6efaa19
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c3c24864d7b7a3734aa7ba25c42a79c0
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Packages/com.unity.ugui/Editor Resources/Gizmos/TMP - Text Component Icon.psd
+Dependencies: []

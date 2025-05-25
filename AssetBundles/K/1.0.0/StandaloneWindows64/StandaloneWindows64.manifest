@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.26f1
+CRC: 2700643665
+HashAppended: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: k_configs.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: k_scenes.unity3d
+      Dependencies:
+        Dependency_0: k_9dd0db27ad8a67a45b2af9ec30d7b806_separately(auto).unity3d
+        Dependency_1: k_8f586378b4e144a9851e7b34d9b748ee_separately(auto).unity3d
+    Info_2:
+      Name: k_9dd0db27ad8a67a45b2af9ec30d7b806_separately(auto).unity3d
+      Dependencies: {}
+    Info_3:
+      Name: k_2e498d1c8094910479dc3e1b768306a4_separately(auto).unity3d
+      Dependencies:
+        Dependency_0: k_e3265ab4bf004d28a9537516768c1c75_separately(auto).unity3d
+    Info_4:
+      Name: k_2e498d1c8094910479dc3e1b768306a4_separately_depend_res(auto).unity3d
+      Dependencies: {}
+    Info_5:
+      Name: k_8f586378b4e144a9851e7b34d9b748ee_separately(auto).unity3d
+      Dependencies:
+        Dependency_0: k_2e498d1c8094910479dc3e1b768306a4_separately(auto).unity3d
+        Dependency_1: k_e3265ab4bf004d28a9537516768c1c75_separately(auto).unity3d
+    Info_6:
+      Name: k_e3265ab4bf004d28a9537516768c1c75_separately(auto).unity3d
+      Dependencies: {}
+    Info_7:
+      Name: k_scenes_depend_on_res(auto).unity3d
+      Dependencies: {}
