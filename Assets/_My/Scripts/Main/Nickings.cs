@@ -12,9 +12,13 @@ using System;
 using YukiFrameWork.UI;
 using YukiFrameWork.Missions;
 using YukiFrameWork.Audio;
-using Nickings.Loader;
 namespace Nickings
 {
+    public enum GameState
+    {
+        MainMenu = 0,
+        Hospital,
+    }
     public class Nickings : Architecture<Nickings>
     {
 
@@ -34,9 +38,9 @@ namespace Nickings
             // AudioKit.Init(ProjectName);
 
             //本地加载初始化
-            MissionKit.Init(new MyMissionLoader());
-            UIKit.Init(new MyUIConfigLoader());
-            AudioKit.Init(new MyAduioLoaderPools());
+            MissionKit.Init(ProjectName);
+            UIKit.Init(ProjectName);
+            AudioKit.Init(ProjectName);
             SceneTool.XFABManager.Init(ProjectName);
 
         }

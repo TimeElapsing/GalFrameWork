@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d22aa4b760cf7414bb2626fb352c2bc2, type: 3}
   m_Name: Game
   m_EditorClassIdentifier: 
-  viewPosition: {x: 124, y: 60, z: 0}
-  viewScale: {x: 0.8695652, y: 0.8695652, z: 1}
+  viewPosition: {x: 3.2, y: 12.8, z: 0}
+  viewScale: {x: 0.65751624, y: 0.65751624, z: 1}
   runtime_GUID: 
   all_runtime_States:
     list:
@@ -123,7 +123,85 @@ MonoBehaviour:
           height: 40
       - parentStateMachineName: Gaming
         name: MainMenu
+        behaviourInfos:
+        - typeName: Nickings.MainMenuState
+          guid: 80661d9c10904f04a90c5c2331246fb9
+        isBuildInitState: 0
+        buildStateName: 
+        IsSubStateMachine: 0
+        IsDefaultState: 1
+        upMachineName: 
+        position:
+          serializedVersion: 2
+          x: 300
+          y: 180
+          width: 200
+          height: 40
+      - parentStateMachineName: Gaming
+        name: Global
+        behaviourInfos:
+        - typeName: Nickings.GlobalState
+          guid: c7bc7c34d3a3df847bfda25cbc4784d0
+        isBuildInitState: 0
+        buildStateName: 
+        IsSubStateMachine: 1
+        IsDefaultState: 0
+        upMachineName: 
+        position:
+          serializedVersion: 2
+          x: 300
+          y: 300
+          width: 200
+          height: 40
+    - _key: Global
+      _value:
+      - parentStateMachineName: Global
+        name: Entry
         behaviourInfos: []
+        isBuildInitState: 1
+        buildStateName: Entry
+        IsSubStateMachine: 0
+        IsDefaultState: 0
+        upMachineName: 
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 300
+          width: 200
+          height: 40
+      - parentStateMachineName: Global
+        name: Any State
+        behaviourInfos: []
+        isBuildInitState: 1
+        buildStateName: Any State
+        IsSubStateMachine: 0
+        IsDefaultState: 0
+        upMachineName: 
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 100
+          width: 200
+          height: 40
+      - parentStateMachineName: Global
+        name: up
+        behaviourInfos: []
+        isBuildInitState: 1
+        buildStateName: up
+        IsSubStateMachine: 0
+        IsDefaultState: 0
+        upMachineName: Gaming
+        position:
+          serializedVersion: 2
+          x: 600
+          y: 300
+          width: 200
+          height: 40
+      - parentStateMachineName: Global
+        name: Hospital
+        behaviourInfos:
+        - typeName: Nickings.HospitalState
+          guid: 401451792bcf2ea489d04481f5fc503e
         isBuildInitState: 0
         buildStateName: 
         IsSubStateMachine: 0
@@ -132,7 +210,7 @@ MonoBehaviour:
         position:
           serializedVersion: 2
           x: 280
-          y: 200
+          y: 180
           width: 200
           height: 40
   all_runtime_Transitions:
@@ -146,6 +224,22 @@ MonoBehaviour:
         - targetValue: 1
           parameterName: InitFinish
           compareType: 2
+    - _key: Gaming
+      _value:
+      - fromStateName: MainMenu
+        toStateName: Global
+        autoSwitch: 0
+        conditions:
+        - targetValue: 1
+          parameterName: GameState
+          compareType: 2
+      - fromStateName: Global
+        toStateName: MainMenu
+        autoSwitch: 0
+        conditions:
+        - targetValue: 0
+          parameterName: GameState
+          compareType: 2
   all_runtime_parameters:
   - parameterName: GameState
     Parameter:
@@ -155,7 +249,9 @@ MonoBehaviour:
     Parameter:
       value: 0
     parameterType: 3
-  SelectLayers: []
+  SelectLayers:
+  - Gaming
+  - Global
   openGenerator: 0
   nameSpace: Nickings
   className: 

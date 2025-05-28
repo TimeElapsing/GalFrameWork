@@ -33,6 +33,15 @@ MonoBehaviour:
     bundleType: 0
     group_name: 
     bundlePackgeType: 0
+  - bundle_name: prefab
+    files:
+    - guid: 2e0a9074860597f4caf71e67841e1a0a
+      type: 1
+      filter: 
+    projectName: Nickings
+    bundleType: 0
+    group_name: 
+    bundlePackgeType: 0
   dependenceProject: []
   suffix: .unity3d
   version: 1.0.0

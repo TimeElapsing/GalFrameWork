@@ -8,13 +8,8 @@
 ///=====================================================
 using YukiFrameWork;
 using UnityEngine;
-using System;
-using YukiFrameWork.UI;
-using Nickings.UI;
 using YukiFrameWork.Machine;
 using XFABManager;
-using UnityEngine.InputSystem.LowLevel;
-using Unity.VisualScripting;
 namespace Nickings
 {
     public class Main : ViewController
@@ -22,11 +17,11 @@ namespace Nickings
         protected async override void Awake()
         {
             //打开加载UI显示
-            UIKit.ShowPanel<LoadingPanel>();
+            // UIKit.ShowPanel<LoadingPanel>();
 
             //等待启动框架
             await Nickings.StartUp();
-
+            
 
             //AB包加载场景管理器，并在场景中创建出
             var core = await AssetBundleManager.LoadAssetAsync<RuntimeStateMachineCore>(Nickings.ProjectName, "Game");

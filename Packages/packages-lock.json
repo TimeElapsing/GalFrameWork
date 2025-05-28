@@ -206,7 +206,7 @@
       "url": "https://packages.unity.com"
     },
     "com.yuki.yukiframework": {
-      "version": "file:E:/Unity/Unity插件/YukiFrameWork-YooassetsForYuKI/YukiFrameWork",
+      "version": "file:E:/Fork文件/YukiFrameWork/YukiFrameWork",
       "depth": 0,
       "source": "local",
       "dependencies": {}

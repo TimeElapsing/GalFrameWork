@@ -20,19 +20,7 @@ namespace Nickings
 	{
 		public override  void OnEnter()
 		{
-		 	SceneTool.XFABManager.LoadScene("MainMenu");
+			SetTrigger("InitFinish");
 		}
-		public override void OnUpdate()
-		{
-			if (SceneManager.GetActiveScene().name != "Init")
-			{
-				SetTrigger("InitFinish");
-			}
-		}
-		public override void OnExit()
-		{
-			UIKit.HidePanel<LoadingPanel>();
-		}
-
 	}
 }

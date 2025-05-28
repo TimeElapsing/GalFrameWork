@@ -25,8 +25,8 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 1d1a4d6241f264c4a9df0b7a1c810e49, type: 3}
   dialogueTitle: "\u5B99\u65AF"
   position:
-    x: -709
-    y: -158
+    x: -808
+    y: -158.4
 --- !u!114 &-8815744967086259242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,7 +163,7 @@ MonoBehaviour:
   - {fileID: 1027740570637250010}
   - {fileID: 7834099548012837026}
   - {fileID: 1087294627359182456}
-  excelPath: Assets/Test.xlsx
+  excelPath: Assets/YukiFramework/DiaLogKit/DiaLogExample/Resources/Test.xlsx
 --- !u!114 &450640751343897464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,8 +189,8 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 1d1a4d6241f264c4a9df0b7a1c810e49, type: 3}
   dialogueTitle: "\u5B99\u65AF"
   position:
-    x: 626
-    y: 46
+    x: 626.4
+    y: 43.199997
 --- !u!114 &1027740570637250010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,8 +270,8 @@ MonoBehaviour:
   icon: {fileID: 0}
   dialogueTitle: 
   position:
-    x: 793
-    y: 577
+    x: 880.0001
+    y: 320
 --- !u!114 &2936845217516793101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,13 +318,13 @@ MonoBehaviour:
   randomIdItems: 
   optionIdItems: 
   linkIds: 
-  child: {fileID: 0}
+  child: {fileID: 2401994875219892066}
   childNodeId: 0
   dialogueContext: "\u6211\u771F\u7684\u5BF9\u4F60\u5F88\u5931\u671B"
   icon: {fileID: 21300000, guid: 1d1a4d6241f264c4a9df0b7a1c810e49, type: 3}
   dialogueTitle: "\u5B99\u65AF"
   position:
-    x: 632
+    x: 629.60004
     y: 380
 --- !u!114 &7269039119517245183
 MonoBehaviour:
@@ -351,8 +351,8 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: beb7743cd4c368f48a173d46629ecadb, type: 3}
   dialogueTitle: "\u795E\u79D8\u4EBA"
   position:
-    x: -454
-    y: -158
+    x: -567.19995
+    y: -158.40001
 --- !u!114 &7834099548012837026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -405,8 +405,8 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 1d1a4d6241f264c4a9df0b7a1c810e49, type: 3}
   dialogueTitle: "\u5B99\u65AF"
   position:
-    x: -301
-    y: 100
+    x: -258.40002
+    y: -81.600006
 --- !u!114 &8725136802727617154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -471,5 +471,5 @@ MonoBehaviour:
   icon: {fileID: 0}
   dialogueTitle: 
   position:
-    x: 129
-    y: 46
+    x: 126.400024
+    y: 24

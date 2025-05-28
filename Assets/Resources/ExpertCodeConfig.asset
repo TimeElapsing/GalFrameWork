@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6c05733194851a4f875a1d51ac26136, type: 3}
   m_Name: ExpertCodeConfig
   m_EditorClassIdentifier: 
-  NameSpace: YukiFrameWork.Example
-  FoldPath: Assets/_My/Scripts/Main
-  Name: Main
-  ParentType: 6
-  levelInterface: 0
-  customInterface: 0
+  NameSpace: Nickings
+  FoldPath: Assets/_My/Scripts
+  Name: Test
+  ParentType: 3
+  levelInterface: 1
+  customInterface: 1
   IsScruct: 0
-  architecture: None
+  architecture: Nickings.Nickings
   FoldExport: 0
   IsReturnValueCommand: 0
   ReturnValue: 

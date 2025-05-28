@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d22aa4b760cf7414bb2626fb352c2bc2, type: 3}
   m_Name: New StateMachine
   m_EditorClassIdentifier: 
-  viewPosition: {x: 100, y: 100, z: 0}
-  viewScale: {x: 0.8, y: 0.8, z: 1}
+  viewPosition: {x: 87.2, y: 104.8, z: 0}
+  viewScale: {x: 0.32690176, y: 0.32690176, z: 1}
   runtime_GUID: 
   all_runtime_States:
     list:
@@ -54,6 +54,6 @@ MonoBehaviour:
   all_runtime_parameters: []
   SelectLayers: []
   openGenerator: 1
-  nameSpace: GalGame
+  nameSpace: Nickings
   className: 
   path: Assets/Scripts
